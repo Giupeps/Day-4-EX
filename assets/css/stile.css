@@ -54,6 +54,7 @@ header {
 
 header ul {
   list-style-type: none;
+  text-align: center;
 }
 
 header p,
@@ -116,15 +117,27 @@ strong {
 
 /* FORM */
 section,
-aside div,
-footer {
+aside div {
   width: 93%;
   margin: 0 auto;
   margin-top: 15px;
   margin-bottom: 20px;
   background-color: #e3e3e3;
-  padding: 30px;
+  padding: 15px;
 }
+
+input {
+  display: inline-block;
+  width: 199px;
+  height: 20px;
+}
+
+button {
+  background-color: #476cc5;
+  color: white;
+  padding: 5px;
+}
+
 /* ELEMENTI NELL' ASIDE */
 
 aside div p {
@@ -136,6 +149,11 @@ aside div a {
 
 /* FOOTER */
 footer {
+  width: 93%;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  padding: 30px;
   color: white;
   background-color: #235266;
   text-align: center;
