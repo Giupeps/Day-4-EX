@@ -82,6 +82,10 @@ h1 {
 
 h2 {
   margin-top: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 500;
+  font-size: 30px;
 }
 
 #author,
@@ -132,5 +136,16 @@ aside div a {
 
 /* FOOTER */
 footer {
+  color: white;
+  background-color: #235266;
+  text-align: center;
   background-image: linear-gradient (to top #323b3a, #235266);
+}
+
+footer p {
+  padding-top: 0;
+}
+
+footer a {
+  color: #df34d7;
 }
